@@ -1,13 +1,20 @@
 # MechaCar_Statistical_Analysis
-R and RStudio
+Software: R and RStudio
+Data Tools: tidyverse, dplyr, ggplot2
 
 ## Linear Regression to Predict MPG
 
 <b>Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?</b>
 
+Vehicle length and vehicle ground clearance provided a non-random amount of variance due to the model. These two variables have a statistically significant impact on miles per gallon for the MechaCar prototype. 
+
 <b>Is the slope of the linear model considered to be zero? Why or why not?</>
 
+ The screenshot below reveals that for this model, the p-Value = 5.35e-11. This value is much smaller than the assumed 0.05% significance level. This finding indicates that there is sufficient evidence to reject the null hypothesis. When the null hypothesis is rejected, that means the slope of the linear model is not zero.
+  
 <b>Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?</b>
+
+The linear model has an r-Squared value of 0.7149, which roughly means that 72% of all mpg predictions can be determined by this model. In conclusion, this multiple regression model does predict mpg of MechaCar prototypes effectively.
 
 ![Deliverable1](https://user-images.githubusercontent.com/101427781/191613239-da5fee22-02cf-46ba-ae75-6e1c48c48128.png)
 
